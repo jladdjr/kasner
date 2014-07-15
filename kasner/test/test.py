@@ -30,4 +30,6 @@ def execute_tests():
     """
     #unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
     suite = unittest.TestLoader().loadTestsFromTestCase(KasnerTest)
-    xmlrunner.XMLTestRunner(output='test-reports').run(suite)
+    result = xmlrunner.XMLTestRunner(output='test-reports').run(suite)
+    failures_and_errors = len(result.failures) + len(result.errors)
+    return failures_and_errors 
