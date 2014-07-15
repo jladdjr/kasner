@@ -30,4 +30,4 @@ def execute_tests():
     """
     #unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
     suite = unittest.TestLoader().loadTestsFromTestCase(KasnerTest)
-    xmlrunner.XMLTestRunner().run(suite)
+    xmlrunner.XMLTestRunner(output='test-reports').run(suite)

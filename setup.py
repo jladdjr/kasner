@@ -1,4 +1,6 @@
-""" 
+#!/usr/bin/env python
+
+"""
 Call distutils to install Kasner.
 """
 
