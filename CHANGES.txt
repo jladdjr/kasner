@@ -1,0 +1,11 @@
+Kasner Changelog
+===============
+
+The following notes describe changes between releases of Kasner:
+
+Version 0.1.0
+--------------
+
+(initial release, released on June 14th 2013)
+
+- Create raw skeleton of project 

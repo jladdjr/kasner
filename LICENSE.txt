@@ -1,0 +1,5 @@
+Kasner - A micro search engine 
+
+Copyright (C) 2014 Dmitriy Chukhin, Jim Ladd, Chris Wang
+
+<Add license here>
