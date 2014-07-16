@@ -4,6 +4,11 @@ Kasner
 
 A micro search engine.
 
+Requirements
+------------
+
+None
+
 Contributors
 ------------
 
